@@ -1,0 +1,35 @@
+#import = [
+#    "..."
+#]
+
+live_config_reload = true
+
+[env]
+#TERM = "xterm-256color"
+
+[window]
+padding = { x = 0, y = 0 }
+dynamic_padding = true
+opacity = 1.0
+#decorations_theme_variant = "Dark"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+#style = { shape = "Beam", blinking = "On" }
+#blink_interval = 400
+#blink_timeout = 0
+#unfocused_hollow = false
+#thickness = 0.20
+
+[font]
+#normal = { family = "monospace", style = "Regular" }
+#bold = { family = "monospace", style = "Regular" }
+#italic = { family = "monospace", style = "Regular" }
+#bold_italic = { family = "monospace", style = "Regular" }
+size = 11.25
